@@ -121,6 +121,12 @@
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josfin', sans-serif;
+  box-sizing: border-box;
+}
 
 *,
 *::before,
@@ -685,7 +691,68 @@ body.nav-active { overflow: hidden; }
   max-width: 32px;
 }
 
+.abt{
+  width: 100%;
+  padding: 78px 0px;
+  background-color: var(--bg-oxford-blue-2);
+}
+.abt img{
+  height: auto;
+  width: 420px;
+}
+.abt-text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.abt-text h1{
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.abt-text h5{
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span{
+  color: #f9004d;
+}
+.abt-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button{
+  background: var(--bg-carolina-blue);
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+button:hover{
+  background: #f9004d;
+  border: 2px solid #f9004d;
+  cursor : pointer
+}
 
 
 
